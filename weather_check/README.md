@@ -25,7 +25,7 @@ WeatherWise is a web application that provides intelligent weather forecasts for
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/SauirbekA/weatherwise.git
+   git clone https://github.com/SauirbekA/weather_app.git
    cd weatherwise
    ```
 
