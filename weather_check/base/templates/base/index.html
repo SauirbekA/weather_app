@@ -1,0 +1,27 @@
+{% load static %}
+<html>
+<head>
+  <title>WeatherWise</title>
+
+  <link rel="stylesheet" href="{% static 'base/css/styles.css' %}">
+
+</head>
+
+<body>
+  <h1>WeatherWise</h1>
+  <div id="search-container">
+    <input type="text" id="city-input" placeholder="Enter city name" list="city-suggestions">
+    <datalist id="city-suggestions"></datalist>
+    <button id="search-button">Get Weather</button>
+  </div>
+  <div id="previous-search"></div>
+  <div id="forecast-options" style="display:none;">
+    <button id="hourly-button">24 Hours</button>
+    <button id="daily-button">10 Days</button>
+  </div>
+  <div id="weather-container"></div>
+  <div id="search-history"></div>
+
+  <script src="{% static 'base/js/scripts.js' %}"></script>
+
+</body></html>
