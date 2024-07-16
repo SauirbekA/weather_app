@@ -1,5 +1,4 @@
 
-
 # WeatherWise Project
 
 ## Overview
