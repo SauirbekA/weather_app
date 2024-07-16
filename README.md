@@ -34,19 +34,13 @@ WeatherWise is a web application that provides intelligent weather forecasts for
    pip install -r requirements.txt
    ```
 
-3. **Apply the migrations:**
-
-   ```bash
-   python manage.py migrate
-   ```
-
-4. **Run the development server:**
+3. **Run the development server:**
 
    ```bash
    python manage.py runserver
    ```
 
-5. **Access the application:**
+4. **Access the application:**
 
    Open your web browser and go to `http://127.0.0.1:8000/`.
 
